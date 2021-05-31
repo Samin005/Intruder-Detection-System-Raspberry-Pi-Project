@@ -23,7 +23,7 @@ def sendMail(data):
     mail.attach(image)
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login(fromAddr, "14101005")
+    # server.login(fromAddr, "password")
     text = mail.as_string()
     server.sendmail(fromAddr, toAddr, text)
     server.quit
