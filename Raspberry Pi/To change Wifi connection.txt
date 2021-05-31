@@ -1,0 +1,6 @@
+1. Open terminal
+2. cd /etc
+3. sudo nano wpa.conf
+4. Here, ssid="wifi name"
+	 pask="wifi password"
+5. Reboot.
